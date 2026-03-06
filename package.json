@@ -1,0 +1,21 @@
+{
+  "name": "backupforbase",
+  "version": "1.0.0",
+  "description": "Automated Firestore JSON backups committed by GitHub Actions",
+  "main": "index.js",
+  "scripts": {
+    "backup:firestore": "node scripts/backup-firestore.js",
+    "test": "echo \"No tests configured\""
+  },
+  "keywords": [
+    "firestore",
+    "backup",
+    "github-actions"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "firebase-admin": "^13.5.0"
+  }
+}
